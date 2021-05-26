@@ -1,4 +1,4 @@
-
+n = int(input("Nhập số đĩa cần chuyển:"))
 def thapHaNoi(n, toaMot, toaHai, toaBa):
 
     if n == 1:
@@ -7,6 +7,6 @@ def thapHaNoi(n, toaMot, toaHai, toaBa):
         thapHaNoi(n-1,toaMot,toaBa ,toaHai)
         print("Chuyen tu", toaMot, "sang", toaBa)
         thapHaNoi(n-1,toaHai,toaMot, toaBa)
-thapHaNoi(5,'A','B','C')       
+thapHaNoi(n,'A','B','C')       
     
 
